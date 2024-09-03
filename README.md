@@ -22,6 +22,7 @@ This would provide different inputs to test each case for the server.
 First, click in the folder open the terminal, and install flask 3.0.0 by the command:
 
 `pip install flask`
+
 Second, execute the ProjectServer.py by the command in the terminal.
 
 `python .\ProjectServer.py`
