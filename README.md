@@ -1,6 +1,6 @@
 # JSON_WebService
 
-# Introduction of each file
+## Introduction of each file
 - ProjectServer.py  
 ProjectServer.py which contains two JSON web services on the client and interacts to 
 the given quote server.
@@ -17,7 +17,26 @@ UserData.json contains user information which has two columns: username and numb
 - test(with_different_inputs)  
 This would provide different inputs to test each case for the server.
 
-# Instructions for setting up and executing the project server
+## Requirements
+- User Authentication:
+  
+  All requests must include valid user credentials, ensuring secure access.
+  
+- Statistics Management:
+
+  The server must track and persist user request statistics, implementing mutual exclusion to handle concurrent access effectively.
+  
+- Functional Services:
+  
+  A pi web service that employs Monte Carlo simulations to compute π, with adjustable simulation counts and concurrency levels.
+  
+  A quote web service that retrieves quotes from a provided quote server, accommodating TCP and UDP protocols.
+
+- Testing:
+  
+  Comprehensive automated testing must demonstrate the server’s compliance with functional requirements and error handling.
+
+## Instructions for setting up and executing the project server
 -Python version used: 3.11.7 
 First, click in the folder open the terminal, and install flask 3.0.0 by the command:
 
