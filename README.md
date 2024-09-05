@@ -1,4 +1,5 @@
-# JSON_WebService
+# WebServer
+It is a web-based server which wrote in python and JSON.
 
 ## Introduction of each file
 - ProjectServer.py  
